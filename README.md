@@ -19,3 +19,13 @@ Learning backbone.js from Artur Adib's "Hello Backbone.js"
 1. Use `listenTo` to bind a listener to a View, and listen for a change in
 the target (be it `Collection`, `Model`, or whatever)
 2. Respond to the event by changing the View
+
+## Exercise 4 - "Element" Pattern
+
+1. "Collection View" vs "Individual View"
+    1. A "List" View delegates the rendering of individual model to an "Item"
+      View
+2. "Individual View" `render()` must `return this;` for chainable method to be
+used on it
+3. `render()` in "Collection View" calls `render()` of "Individual View", to get
+the individual's raw HTML, and append to itself
