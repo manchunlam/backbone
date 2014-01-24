@@ -11,3 +11,10 @@ can be viewed as a `namespace`, so that other programmers can re-use variable
 names in other applications on the same page.
 
 See `public/javascripts/bootstrap-app.js`.
+
+## II. Libraries
+
+Put all libraries under `public/javascripts/lib`.
+
+`backbone.js` has a dependency on `underscore.js`. `jQuery` is always useful
+for DOM manipulation.
