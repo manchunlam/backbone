@@ -18,3 +18,14 @@ Put all libraries under `public/javascripts/lib`.
 
 `backbone.js` has a dependency on `underscore.js`. `jQuery` is always useful
 for DOM manipulation.
+
+## III. Routes
+
+Routes can have no params, one params, multiple params, and optional params.
+Each route invoke a specific defined function.
+
+Please see `app-router.js'.
+
+If there are optional params, the "standard" route
+can share the same function. We just just have to check if the optional param
+is `null`.

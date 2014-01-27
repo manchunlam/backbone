@@ -4,7 +4,18 @@
     <script src='javascripts/lib/underscore-min.js'></script>
     <script src='javascripts/lib/backbone-min.js'></script>
     <script src='javascripts/bootstrap-app.js'></script>
+    <script src='javascripts/app-router.js'></script>
   </head>
   <body>
+    <a href='#'>default route</a><br/>
+    <a href='#route_without_params'>route without params</a><br/>
+    <a href='#single_param/helloworld'>route with param 'helloworld'</a><br/>
+    <a href='#multi_params/hello/extraworld'>route with multiple params</a><br/>
+    <a href='#optional_params/hello'>route with optional params not specified</a><br/>
+    <a href='#optional_params/hello/world'>route with optional params specified</a><br/>
+    <a href='#pass_anything_after_this/foobar/hello/world'>routes with splat, pass everything!</a><br/>
+    <a href='#routes_with_same_function_but_additional_optional_params/hello'>routes with same function but additional optional params "bar is null"</a><br/>
+    <a href='#routes_with_same_function_but_additional_optional_params/hello/world'>routes with same function but additional optional params "bar is world"</a><br/>
+    <script src='javascripts/app.js'></script>
   </body>
 </html>
