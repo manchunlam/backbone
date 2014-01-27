@@ -24,7 +24,7 @@ for DOM manipulation.
 Routes can have no params, one params, multiple params, and optional params.
 Each route invoke a specific defined function.
 
-Please see `app-router.js'.
+Please see `app-router.js', and its `console.log` output.
 
 If there are optional params, the "standard" route
 can share the same function. We just just have to check if the optional param
