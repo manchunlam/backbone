@@ -36,7 +36,7 @@
       passFooAndBarIfBarExists: function(foo, bar) {
         if (_.isNull(bar)) {
           console.log('foo is \'' + foo + '\'');
-          console.log('bar should be null: \'' + _.isNull(bar) +'\'');
+          console.log('bar should be null: ' + _.isNull(bar));
         } else {
           console.log('foo is \'' + foo + '\'');
           console.log('bar is defined');
@@ -51,7 +51,7 @@
       sameFunction: function(foo, bar) {
         console.log('foo is \'' + foo + '\'');
         if (_.isNull(bar)) {
-          console.log('bar is null: \'' + _.isNull(bar) + '\'');
+          console.log('bar is null: ' + _.isNull(bar));
         } else {
           console.log('bar is \'' + bar + '\'');
         }
